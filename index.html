@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrei Baroian</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#" class="nav-name">Andrei Baroian</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#research">Research</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="andrei_baroian_cv.pdf" target="_blank">CV</a>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- About -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <div class="about-text">
+                <h1>Andrei Baroian</h1>
+                <p class="tagline">Understanding LLMs from pre-training to post-training.</p>
+                <p>
+                    I'm a MSc Artificial Intelligence student at <a href="https://www.universiteitleiden.nl/" target="_blank">Leiden University</a>.
+                    My research focuses on reinforcement learning from verifiable rewards (RLVR), with side interests in LLM quantization and mechanistic interpretability.
+                    I've worked on pre-training transformer variants and fine-tuning LLMs for NLP tasks.
+                </p>
+                <p>
+                    Currently, I'm a Teaching Assistant for Automated Machine Learning at Leiden University
+                    and an AI Engineer at <a href="#">Akida</a>, where I build extraction pipelines with LLMs.
+                </p>
+                <p>Outside of work, I like sports, board games, and traveling.</p>
+
+                <div class="social-icons">
+                    <a href="mailto:baroianandrei@yahoo.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://huggingface.co/ABaroian" target="_blank" title="Hugging Face">&#129303;</a>
+                    <a href="https://arxiv.org/search/?query=andrei+baroian&searchtype=all" target="_blank" title="arXiv"><i class="ai ai-arxiv"></i></a>
+                    <a href="https://github.com/baroian" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="about-photo">
+                <img src="profile.jpg" alt="Andrei Baroian">
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Research -->
+    <section id="research">
+        <h2>Research & Projects</h2>
+
+        <div class="paper">
+            <div class="paper-title">Post-training LLMs with RLVR</div>
+            <div class="paper-authors">Andrei Baroian</div>
+            <div class="paper-desc">
+                Online curriculum for RLVR: filter problems by difficulty to stabilize training and promote exploration. Trained a mini-thinking version of Apertus as a side quest.
+            </div>
+            <div class="paper-links">
+                <a href="https://huggingface.co/ABaroian/Apertus-8B-RLVR-GSM" target="_blank"><i class="fas fa-robot"></i> Hugging Face</a>
+            </div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">Pre-training LLMs &mdash; Researched Transformer-based Architecture Variants</div>
+            <div class="paper-authors">Andrei Baroian et al.</div>
+            <div class="paper-venue">arXiv:2509.06518</div>
+            <div class="paper-desc">
+                Implemented an OLMo-2 layer-scaling variant; pre-trained a 190M model on DCLM. Achieved ~5% lower validation perplexity than baseline at equal compute. Training: DDP on 4&times;H100, ~2 days/run.
+            </div>
+            <div class="paper-links">
+                <a href="https://arxiv.org/abs/2509.06518" target="_blank"><i class="ai ai-arxiv"></i> arXiv</a>
+            </div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">Fine-tuning LLMs for Drug Side-Effect Extraction (NER)</div>
+            <div class="paper-authors">Andrei Baroian et al.</div>
+            <div class="paper-venue">arXiv:2510.22285</div>
+            <div class="paper-desc">
+                Extracted drug&ndash;side-effect pairs from patient-forum text. SFT with GPT-4o reached F1 87.1% vs BioClinicalBERT 61.8% and RoBERTa 64.5%. Simplified 2-class setup improved over 5-entity NER.
+            </div>
+            <div class="paper-links">
+                <a href="https://arxiv.org/abs/2510.22285" target="_blank"><i class="ai ai-arxiv"></i> arXiv</a>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Teaching Assistant, Automated Machine Learning</span>
+                <span class="entry-date">Sep 2025 &ndash; Present</span>
+            </div>
+            <div class="entry-org">Leiden University</div>
+            <ul>
+                <li>Grade assignments and provide feedback.</li>
+                <li>Guide students in selecting, understanding, and presenting research papers.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">AI Engineer</span>
+                <span class="entry-date">Mar 2025 &ndash; Present</span>
+            </div>
+            <div class="entry-org">Akida, The Hague</div>
+            <ul>
+                <li>Develop filtering logic to detect construction projects in public-sector sources using heuristics &amp; GenAI.</li>
+                <li>Build the extraction pipeline for summarization and structured information retrieval with LLMs.</li>
+                <li>Collaborate on annotation workflows and quality evaluation of LLMs.</li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">MSc Computer Science: Artificial Intelligence</span>
+                <span class="entry-date">Aug 2024 &ndash; Jul 2026</span>
+            </div>
+            <div class="entry-org">Leiden University, The Netherlands &mdash; GPA: 8.5/10</div>
+            <p class="entry-detail">Notable grades (9.0): Deep Learning, Seminar in Deep Learning, Natural Language Processing, Deep Reinforcement Learning.</p>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">BSc Entrepreneurship &amp; Business Innovation</span>
+                <span class="entry-date">Sep 2021 &ndash; Jul 2024</span>
+            </div>
+            <div class="entry-org">Tilburg University, The Netherlands</div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Andrei Baroian. Powered by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
+</footer>
+
+</body>
+</html>
