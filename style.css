@@ -175,23 +175,34 @@ h2 {
 }
 
 .badge-in-progress {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
     font-size: 0.72rem;
     font-weight: 600;
-    color: #2c5282;
-    background: #ebf2fa;
-    border: 1px solid #b0cceb;
-    padding: 0.1rem 0.5rem;
+    color: #1a7f37;
+    background: #dafbe1;
+    border: 1px solid #82e596;
+    padding: 0.15rem 0.6rem;
     border-radius: 9999px;
     margin-left: 0.5rem;
     vertical-align: middle;
     letter-spacing: 0.03em;
-    animation: pulse-badge 2s ease-in-out infinite;
 }
 
-@keyframes pulse-badge {
+.badge-in-progress::before {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #1a7f37;
+    animation: blink-dot 1.4s ease-in-out infinite;
+}
+
+@keyframes blink-dot {
     0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
+    50% { opacity: 0.2; }
 }
 
 .paper-desc {
