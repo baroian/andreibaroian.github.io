@@ -44,7 +44,7 @@
                     I also work as a data engineer at Akida and was a Teaching Assistant at Leiden University.
                 </p>
                 <p>
-                    Excited about autoresearch.
+                    Excited about autoresearch. High agency.
                 </p>
                 <div class="social-icons">
                     <a href="mailto:baroianandrei@yahoo.com" title="Email"><i class="fas fa-envelope"></i></a>
@@ -70,7 +70,7 @@
             <div class="paper-venue"><a href="https://spylab.ai/" target="_blank">SPY Lab</a>, ETH Zurich &mdash; Supervised by Jie Zhang and Florian Tram&egrave;r</div>
             <div class="paper-date">Feb 2026 &ndash; Present</div>
             <div class="paper-desc">
-                Studying transferability of image prompt injections: adversarial images optimized on open-source VLMs that transfer to closed-source models (GPT, Gemini, Claude). Concurrently exploring prompt injection attacks on <a href="https://github.com/openclaw/openclaw" target="_blank">OpenClaw</a> agents, designing self-propagating worm attacks that modify agents' internal goal files and spread to other agents.
+                Working on a simple yet effective prompt injection defense. Concurrently exploring prompt injection attacks on <a href="https://github.com/openclaw/openclaw" target="_blank">OpenClaw</a> agents, designing self-propagating worm attacks that modify agents' internal goal files and spread to other agents.
             </div>
         </div>
 
@@ -79,16 +79,16 @@
             <div class="paper-venue"><a href="https://www.ethrobotics.ch/" target="_blank">ETH Robotics Club</a> &mdash; Robotics Safety Division</div>
             <div class="paper-date">Jan 2026 &ndash; Present</div>
             <div class="paper-desc">
-                Creating adversarial attacks against Vision-Language-Action (VLA) models in humanoid robots. Investigating how visual perturbations can override task instructions and induce harmful behaviors. Concurrently working on defenses.
+                Creating adversarial attacks against Vision-Language-Action (VLA) models in humanoid robots. Investigating how visual perturbations can override task instructions and induce harmful behaviors.
             </div>
         </div>
 
         <div class="paper">
-            <div class="paper-title">Prompt Replay: Speeding Up GRPO with On-Policy Reuse of High-Signal Prompts</div>
+            <div class="paper-title">Prompt Replay: Speeding Up GRPO</div>
             <div class="paper-venue">arXiv:2603.21177</div>
             <div class="paper-date">Sep 2025 &ndash; Mar 2026</div>
             <div class="paper-desc">
-                An overhead-free online data selection method for GRPO that reuses prompts (not trajectories) to preserve on-policy optimization. Buffers medium-difficulty prompts near a 50% pass rate to maximize learning signal, combining reused prompts with fresh samples using cooldown periods and reuse limits. Tested on Llama-3.2-3B and Qwen3-8B, reducing zero-variance prompts and accelerating early training gains.
+                LLM RLVR post-training. An overhead-free online data selection method for GRPO that reuses and prioritizes prompts (not trajectories) to preserve on-policy optimization. Buffers medium-difficulty prompts near a 50% pass rate to maximize learning signal, reducing zero-variance prompts and accelerating early training gains. Tested on 3B and 8B models.
             </div>
             <div class="paper-links">
                 <a href="https://arxiv.org/abs/2603.21177" target="_blank"><i class="ai ai-arxiv"></i> arXiv</a>
@@ -100,7 +100,7 @@
             <div class="paper-venue">arXiv:2509.06518</div>
             <div class="paper-date">Apr &ndash; Jul 2025</div>
             <div class="paper-desc">
-                Explored architectural variants that redistribute capacity across transformer layers during pre-training. Introduced three layer-wise scaling patterns using linear interpolation of FFN widths and attention head counts. Pre-trained 180M parameter models on 5B tokens; all variants converged to better performance than an equal-cost isotropic baseline without loss of training throughput.
+                Explored architectural variants that redistribute capacity across transformer layers during pre-training. Introduced three layer-wise scaling patterns using linear interpolation of FFN widths and attention head counts. Pre-trained 180M parameter models on 5B tokens; all variants converged to better performance than an equal-cost isotropic baseline.
             </div>
             <div class="paper-links">
                 <a href="https://arxiv.org/abs/2509.06518" target="_blank"><i class="ai ai-arxiv"></i> arXiv</a>
@@ -143,10 +143,11 @@
             </div>
             <div class="entry-org">Akida, The Hague</div>
             <ul>
-                <li>Develop filtering logic to detect construction projects in public-sector sources using heuristics &amp; GenAI.</li>
-                <li>Build the extraction pipeline for summarization and structured information retrieval with LLMs.</li>
-                <li>Collaborate on annotation workflows and quality evaluation of LLMs.</li>
-                <li>Test, deploy, and monitor Azure applications.</li>
+                <li>Build LLM-powered pipelines (Gemini API) that turn unstructured sources into structured data products for customers (500M documents/year); own code, tests, and Azure deployments end-to-end.</li>
+                <li>Develop filtering and classification logic using heuristics and GenAI to detect construction projects across public-sector sources.</li>
+                <li>Build the extraction pipeline for summarization and structured information retrieval, producing the core data product.</li>
+                <li>Design annotation workflows and LLM evaluation.</li>
+                <li>Deploy to staging and production on Azure; monitor production pipelines.</li>
             </ul>
         </div>
     </section>
@@ -159,20 +160,20 @@
 
         <div class="entry">
             <div class="entry-header">
-                <span class="entry-title">MSc Computer Science: Artificial Intelligence</span>
-                <span class="entry-date">Aug 2024 &ndash; Jul 2026</span>
-            </div>
-            <div class="entry-org">Leiden University, The Netherlands &mdash; GPA: 8.5/10</div>
-            <p class="entry-detail">Notable grades: Seminar in Deep Reinforcement Learning (10), Deep Learning (9.0), Seminar in Deep Learning (9.0), Natural Language Processing (9.0).</p>
-        </div>
-
-        <div class="entry">
-            <div class="entry-header">
                 <span class="entry-title">Exchange Semester &mdash; MSc Thesis at <a href="https://spylab.ai/" target="_blank">SPY Lab</a></span>
                 <span class="entry-date">Feb 2026 &ndash; Jul 2026</span>
             </div>
             <div class="entry-org">ETH Zurich, Switzerland</div>
             <p class="entry-detail">Adversarial attacks on vision-language models. Supervised by Jie Zhang and Florian Tram&egrave;r.</p>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">MSc Computer Science: Artificial Intelligence</span>
+                <span class="entry-date">Aug 2024 &ndash; Jul 2026</span>
+            </div>
+            <div class="entry-org">Leiden University, The Netherlands &mdash; GPA: 8.5/10</div>
+            <p class="entry-detail">Notable grades: Seminar in Deep Reinforcement Learning (10), Deep Learning (9.0), Seminar in Deep Learning (9.0), Natural Language Processing (9.0).</p>
         </div>
 
         <div class="entry">
