@@ -205,6 +205,21 @@ h2 {
     50% { opacity: 0.2; }
 }
 
+.badge-submitted {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #1a365d;
+    background: #e4edf9;
+    border: 1px solid #a8c4e6;
+    padding: 0.15rem 0.6rem;
+    border-radius: 9999px;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    letter-spacing: 0.03em;
+}
+
 .paper-desc {
     font-size: 0.92rem;
     margin-top: 0.3rem;
